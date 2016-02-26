@@ -1,0 +1,79 @@
+body {
+    background-color: #282828;
+}
+section {
+    background-color: #ffffff;
+    height: 1500px;
+    margin: 0 auto;
+    width: 1280px;
+}
+table {
+    border-collapse: collapse;
+    border: 20px solid #f7f7f7;
+    width: 1005px;
+}
+td {
+    border: 1px solid #f7f7f7;
+    padding: 20px;
+}
+.first {
+    float: left;
+    height: 180px;
+    margin: 485px 0 0 138px;
+}
+.first tr .head:first-child {
+    width: 365px;
+}
+.head {
+    width: 340px;
+}
+.second {
+    border-top: none;
+    float: left;
+    height: 283px;
+    margin-left: 138px;
+}
+.first td {
+    border-right: 20px solid #f7f7f7;
+}
+.bottom td {
+    border-bottom: 20px solid #f7f7f7;
+    width: 193px;
+}
+/* Text features */
+.head span:nth-child(1) {
+    font-family: 'SourceSansPro Regular';
+    font-size: 18px;
+}
+.head span:nth-child(2) {
+    color: #a4a4a4;
+    display: block;
+    font-family: 'SourceSansPro Light';
+    font-size: 14px;
+    padding-top: 15px;
+}
+.head span:nth-child(3) {
+    font-family: 'SourceSansPro Semibold';
+    font-size: 24px;
+}
+.head span:nth-child(4) {
+    font-family: 'SourceSansPro Light';
+    font-size: 24px;
+}
+td[colspan="5"] {
+    font-family: 'SourceSansPro Semibold';
+    font-size: 24px;
+    padding: 10px 0 10px 20px;
+}
+.table-mzfk span:nth-child(1) {
+    color: #a4a4a4;
+    font-family: 'SourceSansPro Light';
+    font-size: 14px;
+}
+.table-mzfk span:nth-child(2) {
+    font-family: 'SourceSansPro Regular';
+    font-size: 18px;
+}
+.table-mzfk {
+    padding: 10px 0 10px 20px;
+}
